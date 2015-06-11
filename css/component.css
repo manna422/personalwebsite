@@ -54,24 +54,29 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.hi-icon-resume:before {
-	content: "\e976";
+.icon-pencil2:before {
+        content: "\e906";
 }
-
-.hi-icon-blog:before {
-	content: "\e978";
+.icon-profile:before {
+        content: "\e923";
 }
-
-.hi-icon-email:before {
-	content: "\ea84";
+.icon-file-text2:before {
+        content: "\e926";
 }
-
-.hi-icon-github:before {
-	content: "\eab2";
+.icon-terminal:before {
+        content: "\ea81";
 }
-
-.hi-icon-linkedin:before {
-	content: "\eac8";
+.icon-mail2:before {
+        content: "\ea84";
+}
+.icon-youtube4:before {
+        content: "\ea9a";
+}
+.icon-github:before {
+        content: "\eab1";
+}
+.icon-linkedin:before {
+        content: "\eac8";
 }
 
 
