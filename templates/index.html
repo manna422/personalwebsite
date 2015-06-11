@@ -7,9 +7,9 @@
 	<title>Nicholas Manna</title>
 	<meta name="description" content="Personal Website" />
 	<meta name="author" content="Nicholas Manna" />
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
-	<link rel="stylesheet" type="text/css" href="css/component.css" />
-	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/default.css') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/component.css') }}" />
+	<script src="{{ url_for('static', filename='js/modernizr.custom.js') }}"></script>
 </head>
 	<div class="container">
 		<header>
@@ -20,7 +20,7 @@
 			<a href="http://github.com/manna422" class="hi-icon icon-github">GitHub</a>
 			<a href="http://blog.nmanna.com" class="hi-icon icon-pencil2">Blog</a>
 			<a href="http://www.linkedin.com/pub/nicholas-manna/5a/208/933" class="hi-icon icon-linkedin">Linkedin</a>
-			<a href="static/resume.pdf" class="hi-icon icon-profile">Resume</a>
+			<a href="{{ url_for('static', filename='static/resume.pdf') }}" class="hi-icon icon-profile">Resume</a>
 			<a href="mailto:manna422@gmail.com" class="hi-icon icon-mail2">Email</a>
 		</section>
 	</div>
