@@ -15,13 +15,29 @@
 		<header>
 			<h1>Nicholas Manna <span>Cheers to Work, Fun, Life<span></h1>
 		</header>
-		<section id="icons1">
+		<section id="section-icons1">
 		<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a">
 			<a href="http://github.com/manna422" class="hi-icon icon-github">GitHub</a>
 			<a href="http://blog.nmanna.com" class="hi-icon icon-pencil2">Blog</a>
 			<a href="http://www.linkedin.com/pub/nicholas-manna/5a/208/933" class="hi-icon icon-linkedin">Linkedin</a>
 			<a href="{{ url_for('static', filename='static/resume.pdf') }}" class="hi-icon icon-profile">Resume</a>
 			<a href="mailto:manna422@gmail.com" class="hi-icon icon-mail2">Email</a>
+		</section>
+		<section id="section-blog">
+		<div id="blog">
+		<ul class="cbp_tmtimeline">
+			{% for entry in entries %}
+			<li>
+				<time class="cbp_tmtime"><span>{{ entry.date }}</span> <span>{{ entry.time }}</span></time>
+				<div class="cbp_tmicon icon-pencil2"></div>
+				<div class="cbp_tmlabel">
+					<h2>{{ entry.title }}</h2>
+					<p>{{ entry.text|safe }}</p>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+		<div>
 		</section>
 	</div>
 
