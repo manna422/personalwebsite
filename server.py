@@ -14,12 +14,12 @@ def get_db():
 @app.route('/')
 def show_home():
     db = get_db()
-    cur = db.execute('select date, time, title, text from entries order by id desc')
+    cur = db.execute('select date, time, title, text, icon from entries order by id desc')
     raw = cur.fetchall()
     entries = []
     for entry in raw:
 	entries.append({'date':entry[0], 'time':entry[1], 'title':entry[2],
-                         'text':entry[3]})
+            'text':entry[3], 'icon':entry[4]})
     return render_template('index.html', entries=entries)
 
 if __name__ == '__main__':

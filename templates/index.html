@@ -40,7 +40,7 @@
 			{% for entry in entries %}
 			<li>
 				<time class="cbp_tmtime"><span>{{ entry.date }}</span> <span>{{ entry.time }}</span></time>
-				<div class="cbp_tmicon icon-pencil2"></div>
+                <div class="cbp_tmicon {{ entry.icon }}"></div>
 				<div class="cbp_tmlabel">
 					<h2>{{ entry.title }}</h2>
 					{{ entry.text|safe }}
