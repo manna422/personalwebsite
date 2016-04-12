@@ -54,31 +54,165 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.icon-pencil2:before {
-        content: "\e906";
-}
-.icon-profile:before {
-        content: "\e923";
-}
-.icon-file-text2:before {
-        content: "\e926";
-}
-.icon-terminal:before {
-        content: "\ea81";
-}
-.icon-mail2:before {
-        content: "\ea84";
-}
-.icon-youtube4:before {
-        content: "\ea9a";
-}
-.icon-github:before {
-        content: "\eab1";
-}
-.icon-linkedin:before {
-        content: "\eac8";
+.icon-home:before {
+    content: "\e900";
 }
 
+.icon-pencil:before {
+    content: "\e901";
+}
+
+.icon-pencil2:before {
+    content: "\e902";
+}
+
+.icon-music:before {
+    content: "\e903";
+}
+
+.icon-play:before {
+    content: "\e904";
+}
+
+.icon-dice:before {
+    content: "\e905";
+}
+
+.icon-profile:before {
+    content: "\e906";
+}
+
+.icon-file-text2:before {
+    content: "\e907";
+}
+
+.icon-cogs:before {
+    content: "\e908";
+}
+
+.icon-happy:before {
+    content: "\e909";
+}
+
+.icon-smile:before {
+    content: "\e90a";
+}
+
+.icon-tongue:before {
+    content: "\e90b";
+}
+
+.icon-sad:before {
+    content: "\e90c";
+}
+
+.icon-wink:before {
+    content: "\e90d";
+}
+
+.icon-grin:before {
+    content: "\e90e";
+}
+
+.icon-cool:before {
+    content: "\e90f";
+}
+
+.icon-angry:before {
+    content: "\e910";
+}
+
+.icon-evil:before {
+    content: "\e911";
+}
+
+.icon-shocked:before {
+    content: "\e912";
+}
+
+.icon-baffled:before {
+    content: "\e913";
+}
+
+.icon-confused:before {
+    content: "\e914";
+}
+
+.icon-neutral:before {
+    content: "\e915";
+}
+
+.icon-hipster:before {
+    content: "\e916";
+}
+
+.icon-wondering:before {
+    content: "\e917";
+}
+
+.icon-sleepy:before {
+    content: "\e918";
+}
+
+.icon-frustrated:before {
+    content: "\e919";
+}
+
+.icon-crying:before {
+    content: "\e91a";
+}
+
+.icon-cross:before {
+    content: "\e91b";
+}
+
+.icon-checkmark:before {
+    content: "\e91c";
+}
+
+.icon-circle-up:before {
+    content: "\e91d";
+}
+
+.icon-circle-right:before {
+    content: "\e91e";
+}
+
+.icon-circle-down:before {
+    content: "\e91f";
+}
+
+.icon-circle-left:before {
+    content: "\e920";
+}
+
+.icon-terminal:before {
+    content: "\e921";
+}
+
+.icon-mail2:before {
+    content: "\e922";
+}
+
+.icon-instagram:before {
+    content: "\e923";
+}
+
+.icon-twitter:before {
+    content: "\e924";
+}
+
+.icon-github:before {
+    content: "\e925";
+}
+
+.icon-appleinc:before {
+    content: "\e926";
+}
+
+.icon-linkedin:before {
+    content: "\e927";
+}
 
 
 /* Effect 1 */
